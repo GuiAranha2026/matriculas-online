@@ -91,7 +91,7 @@ import axios from "axios";
 
 type Curso = { id: number; nome: string };
 
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://matriculas-online.onrender.com";
 
 const cursos = ref<Curso[]>([]);
 const loadingCursos = ref(false);
